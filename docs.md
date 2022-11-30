@@ -3,6 +3,17 @@
 Chaque langage de programmation appartient à une “famille” de langages définissant une approche ou une méthodologie générale de programmation. Par exemple, le langage C est un langage de programmation procédurale car il suppose que le programmeur s’intéresse en priorité aux trai- tements que son programme devra effectuer. Un programmeur C commencera par identifier ces traitements pour écrire les fonctions qui les réalisent sur des données prises comme paramètres d’entrée.
 La programmation orientée-objet (introduite par le langage SmallTalk) propose une méthodologie centrée sur les données. Le programmeur Java va d’abord identifier un ensemble d’objets, tel que chaque objet représente un élément qui doit être utilisé ou manipulé par le programme, sous la forme d’ensembles de données. Ce n’est que dans un deuxième temps, que le programmeur va écrire les traitements, en associant chaque traitement à un objet donné. Un objet peut être vu comme une entité regroupant un ensemble de données et de méthodes (l’équivalent d’une fonction en C) de traitement.
 
+## Les utilisateur
+- Les langages dits de POO « purs », où tout est traité comme un objet, depuis les primitives telles que les caractères et la ponctuation, jusqu’aux classes, prototypes, blocs, modules. Ils ont été conçus spécifiquement pour faciliter, voire imposer, les méthodes orientés objet.  Ex: Ruby, Scala, Smalltalk, Eiffel, Emerald, JADE, Self, Raku.
+
+ - Les langages conçus principalement pour la programmation OO, mais avec quelques éléments procéduraux. Ex : Java, Python, C++, C#, Delphi/Object Pascal, VB.NET.
+
+- Les langages qui sont historiquement des langages procéduraux, mais qui ont été étendus avec certaines caractéristiques orientées objets. Ex : PHP, Perl, Visual Basic (dérivé de BASIC), MATLAB, C++, C#, COBOL 2002, Fortran 2003, ABAP, Ada 95, Pascal.
+
+- Les langages possédant la plupart des caractéristiques des objets (classes, méthodes, héritage), mais sous une forme nettement originale. Ex: Oberon (Oberon-1 ou Oberon-2).
+
+- Les langages avec support de types de données abstraits qui peuvent être utilisés pour ressembler à la programmation OO, mais sans toutes les caractéristiques de l’orienté  objet Ex : JavaScript, Lua, Modula-2, CLU.
+
 ## Les classes
 
 Un objet est une variable (presque) comme les autres. Il faut notamment qu’il soit déclaré avec son type. Le type d’un objet est un type complexe (par opposition aux types primitifs entier, caractère, ...) qu’on appelle une classe.
