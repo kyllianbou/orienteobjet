@@ -83,5 +83,6 @@ System.out.println(”rectangle ” + longueur + ”x” + largeur);
 ```
 En revanche, la classe Carre peut bénéficier de la classe Rectangle et ne nécessite pas la ré- écriture de ces méthodes si celles-ci conviennent à la sous-classe. Toutes les méthodes et variables de la classe Rectangle ne sont néanmoins pas accessibles dans la classe Carre. Pour qu’un attribut puisse être utilisé dans une sous-classe, il faut que son type d’accès soit public ou protected, ou, si les deux classes sont situées dans le même package, qu’il utilise le type d’accès par défaut. Dans cet exemple, les variables longueur et largeur ne sont pas accessibles dans la class Carre qui doit passer par les méthodes getLargeur() et getLongueur(), déclarées comme publiques.
 
+
 ## Polymorphisme
 Le polymorphisme est la faculté attribuée à un objet d’être une instance de plusieurs classes. Il a une seule classe “réelle” qui est celle dont le constructeur a été appelé en premier (c’est-à-dire la classe figurant après le new) mais il peut aussi être déclaré avec une classe supérieure à sa classe réelle. Cette propriété est très utile pour la création d’ensembles regroupant des objets de classes différentes
